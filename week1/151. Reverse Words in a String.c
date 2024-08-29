@@ -1,4 +1,3 @@
-
 char* reverseWords(char* s) {
         int len = strlen(s);
     if (len == 0) return s;
@@ -54,5 +53,4 @@ char* reverseWords(char* s) {
     s[i] = '\0';  // Null-terminate the string
 
     return s;
-
 }
